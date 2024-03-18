@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.box {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.h1 {
+    font-size: 4.0vw;
+    font-weight: bold;
+    color: #b175c0;
+}
+
+.h2 {
+    font-size: 1.8vw;
+    color: #194e69;
+}
+
+.box img {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 730px;
+    height: auto;
+    z-index: -1;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
