@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #b9d6f2;
 }
 
 .box {
@@ -21,17 +21,17 @@ body {
 
 .h2 {
     font-size: 1.8vw;
-    color: #194e69;
+    color: #000000;
 }
 
 .box img {
     position: absolute;
-    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    width: 730px;
+    max-width:760px;
     height: auto;
-    z-index: -1;
     margin-bottom: 50px;
     margin-top: 20px;
+    z-index: -1;
+    bottom: -10px;
 }
